@@ -149,7 +149,7 @@ def error_callback(bot, update, error):
     except:
         log.info(error, exc_info=True)
 
-__mod_name__ = "Eval"
+__mod_name__ = "✘Eᴠᴀʟ✘"
 
 eval_handle = CommandHandler(('e', 'ev', 'eva', 'eval'), evaluate)
 exec_handle = CommandHandler(('x', 'ex', 'exe', 'exec', 'py'), execute)
