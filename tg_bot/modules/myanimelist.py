@@ -132,7 +132,7 @@ Get information about anime and manga with the help of this module! All data is 
  """
 
 
-__mod_name__ = "MyAnimeList"
+__mod_name__ = "✘SᴛɪᴄᴋᴇʀS✘"
 
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", search_anime, pass_args=True)
