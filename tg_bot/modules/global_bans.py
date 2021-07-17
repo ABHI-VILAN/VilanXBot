@@ -374,7 +374,7 @@ you and your groups by removing spam flooders as quickly as possible. They can b
 /antispam off.
 """
 
-__mod_name__ = "Anti-Spam"
+__mod_name__ = "✘AɴᴛɪSᴘᴀᴍ✘"
 
 GBAN_HANDLER = CommandHandler("gban", gban, pass_args=True,
                               filters=CustomFilters.sudo_filter | CustomFilters.support_filter)
