@@ -25,13 +25,13 @@ Hi {}, my name is {}!
 You can find the list of available commands with /help.
 """
 
+BOT_IMAGE = "https://telegra.ph/file/7fcbcf9901cfc49539d08.jpg"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Super group management bot with a few fun extras! Have a look at the following for an idea of some of \
+I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 If you have any questions on how to use me, head over to @VilanXSupport
-
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
@@ -141,13 +141,14 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_animation(
+                BOT_IMAGE,
                 caption=PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add VɪʟᴀɴXBᴏᴛ to your group.",
+                                text="Add Pɧơɛnıх to your group.",
                                 url="t.me/{}?startgroup=botstart".format(bot.username),
                             )
                         ]
