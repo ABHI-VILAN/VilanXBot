@@ -46,7 +46,7 @@ async def languages(_, message: Message) -> None:
     )
 
 
-__mod_name__ = "Translation"
+__mod_name__ = "✘TʀᴀɴSʟᴀᴛɪᴏɴ✘"
 
 __help__ = """
 Use this module to translate stuff... duh!
