@@ -306,7 +306,7 @@ __help__ = """
  - /weebify: as a reply to a message, "weebifies" the message.
 """
 
-__mod_name__ = "Extras"
+__mod_name__ = "✘MᴜᴛᴇS✘"
 
 
 SHRUG_HANDLER = DisableAbleCommandHandler(["shrug", "shg"], shrug)
