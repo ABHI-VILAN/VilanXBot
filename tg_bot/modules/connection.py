@@ -390,4 +390,4 @@ dispatcher.add_handler(ALLOW_CONNECTIONS_HANDLER)
 dispatcher.add_handler(HELP_CONNECT_CHAT_HANDLER)
 dispatcher.add_handler(CONNECT_BTN_HANDLER)
 
-__mod_name__ = "Connections"
+__mod_name__ = "✘Cᴏɴɴᴇᴄᴛɪᴏɴ✘"
