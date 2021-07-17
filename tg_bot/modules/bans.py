@@ -371,7 +371,7 @@ __help__ = """
  - /kick <userhandle>: kicks a user, (via handle, or reply)
 """
 
-__mod_name__ = "Bans"
+__mod_name__ = "✘BᴀɴS✘"
 
 BAN_HANDLER = CommandHandler("ban", ban, pass_args=True, filters=Filters.group)
 SBAN_HANDLER = CommandHandler("sban", sban, pass_args=True, filters=Filters.group)
