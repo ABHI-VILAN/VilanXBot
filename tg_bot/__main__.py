@@ -24,7 +24,6 @@ Hi {}, my name is {}!
 
 You can find the list of available commands with /help.
 """
-
 BOT_IMAGE = "https://telegra.ph/file/7fcbcf9901cfc49539d08.jpg"
 
 HELP_STRINGS = """
@@ -147,7 +146,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add ✘VɪʟᴀɴXBᴏᴛ✘ to your group.",
+                                text="Add  ✘VɪʟᴀɴXBᴏᴛ✘  to your group.",
                                 url="t.me/{}?startgroup=botstart".format(bot.username),
                             )
                         ]
