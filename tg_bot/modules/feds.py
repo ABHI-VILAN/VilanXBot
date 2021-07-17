@@ -1126,14 +1126,15 @@ That's where federations come in! You can have a fedban in one chat ban the user
 
 
 *Commands*:
- - /newfed <fedname>: create a new federation with the name given. Users are only allowed to have one federation each. This command can also be used to rename the federation. (max. 64 characters)
+ - /newfed `<fedname>`: create a new federation with the name given. Users are only allowed to have one federation each. This command can also be used to rename the federation. (max. 64 characters)
  - /delfed: delete your federation, and all information related to it. However, this will NOT unban the banned users.
- - /fedinfo <FedID>: information about the specified federation.
- - /joinfed <FedID>: add the current chat to the specified federation. Only group owners can use this command. A group can only have one federation linked to it.
- - /leavefed <FedID>: leave the specified federation. Only group owners can use this command.
- - /fpromote <user>: promote the specified user to fedadmin. Can only be used by the fed owner. - /fdemote <user>: demote the specified user. Can only be used by the fed owner.
- - /fban <user>: ban users from all federations you have control over.
- - /unfban <user>: unbans users from all federations you have control over.
+ - /fedinfo `<FedID>`: information about the specified federation.
+ - /joinfed `<FedID>`: add the current chat to the specified federation. Only group owners can use this command. A group can only have one federation linked to it.
+ - /leavefed `<FedID>`: leave the specified federation. Only group owners can use this command.
+ - /fpromote `<user>`: promote the specified user to fedadmin. Can only be used by the fed owner.
+ - /fdemote `<user>`: demote the specified user. Can only be used by the fed owner.
+ - /fban `<user>`: ban users from all federations you have control over.
+ - /unfban `<user>`: unbans users from all federations you have control over.
  - /setfrules: set the rules for the federation.
  - /frules: get the rules of the federation.
  - /chatfed: shows the federation the chat is linked to.
