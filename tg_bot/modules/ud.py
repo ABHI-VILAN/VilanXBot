@@ -33,7 +33,7 @@ __help__ = """
  - /ud <expression> :- Returns the top definition of the word or expression on Urban Dictionary.
 """
 
-__mod_name__ = "Urban Dictionary"
+__mod_name__ = "✘Uʀʙᴀɴ 𝐃ɪᴄᴛɪᴏɴᴀʀʏ✘"
   
 ud_handle = DisableAbleCommandHandler("ud", ud)
 
