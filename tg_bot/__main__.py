@@ -150,12 +150,6 @@ def start(bot: Bot, update: Update, args: List[str]):
                             InlineKeyboardButton(
                                 text="Add VɪʟᴀɴXBᴏᴛ to your group.",
                                 url="t.me/{}?startgroup=botstart".format(bot.username),
-                    [
-                        [
-                            InlineKeyboardButton(
-                                text="onwer.",
-                                url="t.me/abhi_vilan,           
-                                
                             )
                         ]
                     ]
