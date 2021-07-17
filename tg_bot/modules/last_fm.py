@@ -86,7 +86,7 @@ Share what you're listening to with the help of this module!
  - /lastfm: returns what you're scrobbling on last.fm.
 """
 
-__mod_name__ = "Last.FM"
+__mod_name__ = "✘LᴀSᴛ Fᴍ✘"
     
 
 SET_USER_HANDLER = CommandHandler("setuser", set_user, pass_args=True)
