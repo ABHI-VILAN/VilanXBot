@@ -34,7 +34,7 @@ If you have any questions on how to use me, head over to @VilanXSupport
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
+ - /help `<module name>`: PM's you info about that module.
  - /donate: information about how to donate!
  - /settings:
    - in PM: will send you your settings for all supported modules.
@@ -44,9 +44,9 @@ If you have any questions on how to use me, head over to @VilanXSupport
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """{0} doesn't currently need any donations.
-However you can donate to the creator of the original source code which {0} \
-is based on:- [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen).""".format(dispatcher.bot.first_name)
+DONATE_STRING = """{0} `IF YOU LOVE MY WORK ?`
+`ARE HAPPY WITH THIS BOT ?`
+`IF WANT DONATE ME ?` YOU CAN DONATE ME VIA THIS STRING :- [PayPal](paypal.me/ABHI_VILAN).""".format(dispatcher.bot.first_name)
 
 IMPORTED = {}
 MIGRATEABLE = []
