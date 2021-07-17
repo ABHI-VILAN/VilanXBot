@@ -629,7 +629,7 @@ Welcome/bid farewell to members in your group with the help of this module!
  - /welcomehelp: view more formatting information for custom welcome/goodbye messages.
 """
 
-__mod_name__ = "Greetings"
+__mod_name__ = "✘GʀᴇᴇᴛɪɴɢS✘"
 
 NEW_MEM_HANDLER = MessageHandler(Filters.status_update.new_chat_members, new_member, pass_job_queue=True)
 LEFT_MEM_HANDLER = MessageHandler(Filters.status_update.left_chat_member, left_member)
