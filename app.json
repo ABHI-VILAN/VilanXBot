@@ -25,7 +25,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations.",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://www.paypal.me/ABHI_VILAN"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables.",
@@ -37,7 +37,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "TheRealPhoenix"
+         "value": "ABHI_VILAN"
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
@@ -85,8 +85,8 @@
       "best",
       "group",
       "manager",
-      "phoenix"
+      "VilanXBot"
    ],
    "name": "Phoenix",
-   "repository": "https://github.com/rsktg/TheRealPhoenixBot"
+   "repository": "https://github.com/ABHI-VILAN/VILANXBOT"
 }
